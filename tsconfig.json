@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "allowJs": true,
+    "jsx": "react-native",
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@assets/*": ["./assets/*"],
+      "@components/*": ["./components/*"],
+      "@config/*": ["./config/*"],
+      "@constants/*": ["./constants/*"],
+      "@contexts/*": ["./contexts/*"],
+      "@hooks/*": ["./hooks/*"],
+      "@lang": ["./lang"],
+      "@lib": ["./lib"],
+      "@hoc": ["./hoc"],
+      "@models/*": ["./models/*"],
+      "@routes": ["./routes"],
+      "@screens/*": ["./screens/*"],
+      "@server/*": ["./server/*"],
+      "@services/*": ["./services/*"],
+      "@store/*": ["./store/*"],
+      "@styles/*": ["./styles/*"],
+      "@theme": ["./theme"],
+      "@@types/*": ["./types/*"],
+      "@utils/*": ["./utils/*"]
+    }
+  },
+  "exclude": [
+    "node_modules", "babel.config.js", "metro.config.js", "jest.config.js"
+  ]
+}
